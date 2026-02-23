@@ -25,7 +25,7 @@ GranjaWeb/
 
 ## Como executar o projeto
 
-1. Clone o repositório: ```git clone https://github.com/RhuanFelix/GranjaWeb.git```;
+1. No terminal, clone o repositório: ```git clone https://github.com/RhuanFelix/GranjaWeb.git```;
 
 2. Abra o projeto no terminal ou na sua IDE de preferência;
 
