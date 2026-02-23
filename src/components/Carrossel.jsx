@@ -1,17 +1,26 @@
 import Carousel from 'react-bootstrap/Carousel';
 
 function Carrossel() {
+  const imagens = [
+    "frenteGranja.png",
+    "Galpoes.png"
+  ];
+
   return (
     <Carousel>
-      <Carousel.Item>
-        <div style={{backgroundImage:"", backgroundSize:"cover", backgroundRepeat:"no-repeat"}}></div>
-      </Carousel.Item>
-      <Carousel.Item>
-        <div style={{backgroundImage:"", backgroundSize:"cover", backgroundRepeat:"no-repeat"}}></div>
-      </Carousel.Item>
-      <Carousel.Item>
-        <div style={{backgroundImage:"", backgroundSize:"cover", backgroundRepeat:"no-repeat"}}></div>
-      </Carousel.Item>
+      {imagens.map((img, index) => (
+        <Carousel.Item key={index}>
+          <div
+            style={{
+              backgroundImage: `url(${img})`,
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              height: "800px"
+            }}
+          ></div>
+        </Carousel.Item>
+      ))}
     </Carousel>
   );
 }
