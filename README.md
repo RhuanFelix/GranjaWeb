@@ -1,16 +1,28 @@
-# React + Vite
+# GranjaWeb
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma atividade da disciplina de Programação para Web I, em que consiste em praticar os conhecimentos adquiridos com o ReactJS.
 
-Currently, two official plugins are available:
+## Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ReactJS
+- React Bootstrap
+- React Router Dom
+- React Icons
 
-## React Compiler
+## Estrutura do projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+GranjaWeb/
+    ├── public/                  # Imagens, ícones e svg
+    ├── src/
+    |   ├── components/          # Componentes reutilizáveis da interface
+    |   ├── layouts/             # Estrutura base das páginas
+    |   ├── views/               # Páginas da aplicação
+    |   ├── App.jsx              # Componente principal da aplicação onde contém as rotas
+    |   └── main.jsx             # Inicializa a aplicação React
+    └── index.html
+```
 
-## Expanding the ESLint configuration
+## Para colaboradores
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Para quem for contribuir com o projeto, veja o arquivo: [Padrões de commit](./padroes_de_commit.md).
