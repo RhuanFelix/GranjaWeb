@@ -1,9 +1,10 @@
 import React from 'react'
+import ModalCadastroGalpoes from "../components/ModalCadastroGalpoes"
 
 const Galpoes = () => {
   return (
     <>
-      <h1>galpões</h1>
+      <ModalCadastroGalpoes/>
     </>
   )
 }
