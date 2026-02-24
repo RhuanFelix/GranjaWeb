@@ -1,10 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 
 function Carrossel() {
-  const imagens = [
-    "frenteGranja.png",
-    "Galpoes.png"
-  ];
+  const imagens = ['foto1.png', 'foto2.png', 'foto3.png'];
 
   return (
     <Carousel>
@@ -13,10 +10,10 @@ function Carrossel() {
           <div
             style={{
               backgroundImage: `url(${img})`,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
-              height: "800px"
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'center',
+              height: '800px',
             }}
           ></div>
         </Carousel.Item>
