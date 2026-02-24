@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Header.css';
 
+
 function Header() {
   return (
     <header>
@@ -10,7 +11,7 @@ function Header() {
         <Container>
           <Navbar.Brand href="/">
             <img 
-              style={{width: 50, height:50, marginRight:10, borderRadius:50}} 
+              style={{width: 100, height:100, marginRight:20, borderRadius:100}} 
               src="../../public/logoGranja.png" 
               alt="Logo da GranjaWeb" 
             />
