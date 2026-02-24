@@ -1,0 +1,12 @@
+.navbar-custom {
+  background-color: #e66a00 !important;
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #2e5e1a !important; /* verde da identidade */
+}
