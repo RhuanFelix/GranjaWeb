@@ -25,7 +25,6 @@ function TabelaGalpoes() {
           <th>Exaustores</th>
           <th>Responsáveis</th>
           <th>Termômetro</th>
-          <th>Ações</th>
         </tr>
       </thead>
       <tbody>
