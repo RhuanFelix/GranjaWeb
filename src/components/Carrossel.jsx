@@ -13,7 +13,7 @@ function Carrossel() {
               backgroundSize: 'cover',
               backgroundRepeat: 'no-repeat',
               backgroundPosition: 'center',
-              height: '800px',
+              height: 'calc(100vh - 86px)',
             }}
           ></div>
         </Carousel.Item>
