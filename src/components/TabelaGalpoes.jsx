@@ -8,7 +8,7 @@ function TabelaGalpoes() {
     fetch('http://localhost:3000/galpoes')
       .then((res) => res.json())
       .then((data) => setGalpoes(data));
-  }, []);
+  }, [galpoes]);
 
 
   return (
@@ -29,7 +29,7 @@ function TabelaGalpoes() {
       </thead>
       <tbody>
         {galpoes.map((galpao, index) => (
-          <tr key={galpao.id}>
+          <tr key={index}>
             <td>{index + 1}</td>
             <td>{galpao.nome}</td>
             <td>{galpao.qtdFrangos}</td>
@@ -39,7 +39,6 @@ function TabelaGalpoes() {
             <td>{galpao.qtdExaustores}</td>
             <td>{galpao.qtdResponsaveis}</td>
             <td>{galpao.presencaTermometro}</td>
-            <td></td>
           </tr>
         ))}
       </tbody>
