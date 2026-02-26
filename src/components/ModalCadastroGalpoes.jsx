@@ -68,6 +68,7 @@ function ModalCadastroGalpoes() {
                 value={galpao.nome}
                 onChange={handleChange}
                 autoFocus
+                required
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="qtdFrangos">
@@ -78,6 +79,7 @@ function ModalCadastroGalpoes() {
                 value={galpao.qtdFrangos}
                 onChange={handleChange}
                 autoFocus
+                required
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="qtdComedouros">
@@ -88,6 +90,7 @@ function ModalCadastroGalpoes() {
                 value={galpao.qtdComedouros}
                 onChange={handleChange}
                 autoFocus
+                required
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="qtdBebedouros">
@@ -98,6 +101,7 @@ function ModalCadastroGalpoes() {
                 value={galpao.qtdBebedouros}
                 onChange={handleChange}
                 autoFocus
+                required
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="qtdVentiladores">
@@ -108,6 +112,7 @@ function ModalCadastroGalpoes() {
                 value={galpao.qtdVentiladores}
                 onChange={handleChange}
                 autoFocus
+                required
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="qtdExaustores">
@@ -118,6 +123,7 @@ function ModalCadastroGalpoes() {
                 value={galpao.qtdExaustores}
                 onChange={handleChange}
                 autoFocus
+                required
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="qtdResponsaveis">
@@ -128,6 +134,7 @@ function ModalCadastroGalpoes() {
                 value={galpao.qtdResponsaveis}
                 onChange={handleChange}
                 autoFocus
+                required
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="presencaTermometro">
@@ -138,6 +145,7 @@ function ModalCadastroGalpoes() {
                 value={galpao.presencaTermometro}
                 onChange={handleChange}
                 autoFocus
+                required
               />
             </Form.Group>
           </Modal.Body>
