@@ -4,7 +4,7 @@ import GranjaCards from '../components/Card'
 
 const Home = () => {
   return (
-    <main className="flex-grow-1">
+    <main>
       <Carrossel />
       <GranjaCards/>
     </main>
