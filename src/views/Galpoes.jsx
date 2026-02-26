@@ -4,10 +4,10 @@ import TabelaGalpoes from '../components/TabelaGalpoes';
 
 const Galpoes = () => {
   return (
-    <>
+    <main>
       <ModalCadastroGalpoes />
       <TabelaGalpoes />
-    </>
+    </main>
   );
 };
 
