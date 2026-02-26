@@ -1,12 +1,15 @@
 import React from 'react';
 import ModalCadastroGalpoes from '../components/ModalCadastroGalpoes';
 import TabelaGalpoes from '../components/TabelaGalpoes';
+import { Container } from 'react-bootstrap';
 
 const Galpoes = () => {
   return (
     <main>
-      <ModalCadastroGalpoes />
-      <TabelaGalpoes />
+      <Container>
+        <ModalCadastroGalpoes />
+        <TabelaGalpoes />
+      </Container>
     </main>
   );
 };
