@@ -1,13 +1,12 @@
 import { Container } from 'react-bootstrap'
-import './Footer.css'
 
 const Footer = () => {
   const anoAtual = new Date().getFullYear()
 
   return (
-    <footer className="footer-custom py-3 mt-4 border-top">
+    <footer className="footer-custom py-3 mt-4 border-top bg-success">
       <Container className="text-center">
-        <small className="text-muted">
+        <small className="text-light">
           © {anoAtual} - GranjaWeb. Todos os direitos reservados.
         </small>
       </Container>
